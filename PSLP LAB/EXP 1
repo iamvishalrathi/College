@@ -1,4 +1,4 @@
-disp('NAME : GAUTAM JHA')
+disp('NAME : VISHAL KUMAR')
 disp('ROLL NO.: 14814802722')
 m=input ('Enter the no. of rows of matrix');
 n=input ('Enter the no. of cols of matrix');
