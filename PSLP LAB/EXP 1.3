@@ -1,0 +1,39 @@
+disp('NAME : GAUTAM JHA')
+disp('ROLL NO.: 14114802722')
+m=input ('Enter the no. of rows of first matrix');
+n=input ('Enter the no. of cols of first matrix');
+p=input ('Enter the no. of rows of second matrix');
+q=input ('Enter the no. of cols of second matrix');
+if  n==p
+    disp('Matrices conformable for mul')
+else
+    disp('Matrices not conformable for mul')
+    break;
+end
+A=zeros(m,n);
+B=zeros(p,q);
+C=zeros(m,q);
+disp('Enter the elems of 1st matrix row wise')
+for i=1:m
+    for j=1:n
+        A(i,j)=input('');
+        end
+    end
+disp('Enter the elements of second matrix row wise')
+for i=1:p
+    for j=1:q
+        B(i,j)=input('');
+        end
+    end
+for i=1:m
+    for j=1:q
+        for k=1:n
+        C(i,j)= C(i,j)+A(i,k)*B(k,j);
+        end
+    end
+disp('The first matrix is')
+disp(A)
+disp('The second matrix is')
+disp(B)
+disp('The product of matrices is')
+disp(C)
