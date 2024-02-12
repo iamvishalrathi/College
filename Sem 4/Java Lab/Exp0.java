@@ -11,7 +11,6 @@ import java.util.*;
     }
     System.out.println("Palindrome");
     }
-    @SuppressWarnings("resource")
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("----------Arthmetic Operations----------");
