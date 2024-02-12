@@ -12,7 +12,7 @@ for j=1:n
 F(1,j)=input('\');
 end
 disp("Mean of the distribution is");
-MEA= sum(F*X)/sum(F);
+MEA= sum(F.*X)/sum(F);
 disp(MEA);
 p=MEA/n;
 EF=sum(F)*binomial(p,n-1);
